@@ -1,0 +1,56 @@
+.bigContainer{
+    border:15px solid rgb(243, 237, 237);
+     display: flex;
+     /* flex-direction: column; */
+     /* align-items: center; */
+     /* background-color: white; */
+     text-align: center;
+     /* position: relative;; */
+  
+}
+.containerList{
+  
+  border: 1px solid white;
+  width: 260px;
+  height: 360px;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+   
+    
+}
+.ner{
+  display: flex;
+  justify-content:space-evenly;
+  width: 150px;
+  height: 30px;
+}
+.picavatar{
+  padding-top: 15px;
+  border-radius: 50%; 
+  
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  width: 250px;
+  
+  
+}
+.edit {
+  height: 50px;
+  border-top: 6px solid grey ;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.innerContainer{
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
