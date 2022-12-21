@@ -1,0 +1,71 @@
+.apiBigContainer{
+  
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+.apiContainer{
+    border:15px solid rgb(203, 197, 197);
+    width: 400px;
+    height: 500px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: white;
+     text-align: center;
+     position: relative;;
+}
+.apipic{
+    height: 150px;
+    border-radius: 50%;
+    padding: 10%;
+
+}
+.apitopcontainer{
+    background-color:rgb(24, 24, 40);
+    display: flex;
+    align-items: flex-start;
+    width: 400px;
+    height: 150px;
+    border-radius: 6px;
+}
+.apibottonborder{
+    border: 1px solid rgb(176, 172, 172);
+    margin-top: 30px;
+    width: 300px;
+    height: 80px;
+    border-radius: 8px;
+    border-top: 4px solid;
+    
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 10px;
+    
+    
+}
+.apiinfo{
+    margin-top: 15%;
+    display: flex;
+    display: block;
+    height: 130px;
+    width: 300px;
+}
+.githublogo{
+    display: flex;
+    position: absolute;
+    margin-right: auto ;
+    left: 90%;
+    margin-top: 10px;
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    border-radius: 20px;
+}
+.words{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
